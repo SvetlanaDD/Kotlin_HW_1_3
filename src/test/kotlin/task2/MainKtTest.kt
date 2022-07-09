@@ -58,6 +58,6 @@ class MainKtTest {
 
         val result = task2.feeMoneyTransfer(cardType, totalTransfer, amountTransfer)
 
-        assertEquals(2600, result)
+        assertEquals(0, result)
     }
 }
